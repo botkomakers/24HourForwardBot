@@ -1,6 +1,6 @@
 import logging
 from telegram import Update
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+from telegram.ext import Updater, CommandHandler, MessageHandler, filters, CallbackContext
 import yt_dlp
 import random
 
@@ -78,7 +78,7 @@ def reel(update: Update, context: CallbackContext) -> None:
 # Main function to set up the bot
 def main():
     # Set up the Updater and Dispatcher
-    updater = Updater("7980272351:AAF4Ck8oAD8PYrSmRZpDUtITkxTpe2b6XrE")
+    updater = Updater("7980272351:AAF4Ck8oAD8PYrSmRZpDUtITkxTpe2b6XrE")  # <-- Here, replace your token
 
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
