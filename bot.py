@@ -7,8 +7,8 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 #edit token and channel
-TOKEN = 'YOUR_BOT_TOKEN_HERE'
-FORWARD_TO_CHANNEL = '@CHANNEL_USERNAME_with@'
+TOKEN = '7980272351:AAF4Ck8oAD8PYrSmRZpDUtITkxTpe2b6XrE'
+FORWARD_TO_CHANNEL = '@gvhhihijkh'
 SLEEP_TIME = 1500 # Sleep for 25 minutes (1500 seconds)
 
 def start(update: Update, context: CallbackContext) -> None:
